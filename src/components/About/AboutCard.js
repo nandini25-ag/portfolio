@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+
 
 function AboutCard() {
   return (
@@ -13,14 +13,8 @@ function AboutCard() {
             <br />
             Beyond coding, I am dedicated to continuous learning, staying abreast of the latest industry trends to ensure my solutions align with the dynamic landscape of software development. I value work-life balance and take time to recharge by pursuing my hobbies, like reading and travelling. A balanced mind leads to creative ideas and better productivity.
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Reading
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-          </ul>
+          
+          
         </blockquote>
       </Card.Body>
     </Card>
